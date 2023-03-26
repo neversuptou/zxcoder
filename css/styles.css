@@ -3,10 +3,7 @@
 }
 html,
 h1,
-h2,
 h3,
-h4,
-h5,
 h6 {
     color: #50386a;
     position: relative;
@@ -69,8 +66,8 @@ header nav li i:hover{
 header h1 {
     margin-top: 13px;
     display: flex;
-  justify-content: right;
-  margin-right: 140px;
+    justify-content: right;
+    margin-right: 140px;
   
 }
 header h1 a{
@@ -91,6 +88,18 @@ header ul{
     padding: -20px;
 }
 
+/*
+    HEADER PHONE
+*/
+.headerPhone{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+   font-size: 1.3rem;
+   text-decoration: none;
+   color: #50386a;
+   
+}
 /*
     HEADER BUTTONS
 */
@@ -164,22 +173,38 @@ body {
 .carousel-inner, .carousel-item a img{
     border-radius: 24px;
 } 
+/* 
+    PRODUCTS
+*/
 .product{
-
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .image{
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    
 }
 .product img{
-    height: 400px;
-    width: 400px;
+    height: 290px;
+    width: 290px;
     object-fit: cover;
     border-radius: 14px;
-     
+
+    
+}
+.info h3{
+    font-size: 24px;
+    width: 300px;
+    
+}
+.price{
+    font-size: 20px;
+    font-weight:700;
 }
 .cart-lovers{
     display: flex;
-    flex-flow: row nowrap ;
+    flex-flow: row nowrap;
     margin-top: 5px;
 }
 .add-to-cart, .lovers{
@@ -194,4 +219,54 @@ body {
     justify-content: center;
     color: #50386a;
     background-color: transparent;
+}
+.col-md-4{
+   width: 310px;
+}
+h2{
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: center;
+    color: #50386a;
+}
+/*
+    ADVENTAGE
+*/
+.advantages h4{
+    
+    font-size: 50px;
+    text-align: center;
+    color: #50386a;
+    text-align: center;
+    color: #50386a;
+}
+.advantages h5{
+    font-size: 25px;
+    text-align: center;
+    color: #50386a;
+}
+.advantages i{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #50386a;
+}
+.advantages row{
+    
+    
+}
+.advantages{
+    
+    width: 100%;
+   
+}
+.advantage-info{
+    color: #50386a;
+}
+.col-lg-3{
+    margin-top: 45px;
+    /* border: 1px solid black;  */
+    height: 236px;
+    text-align: center;
 }
